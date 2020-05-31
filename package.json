@@ -1,0 +1,29 @@
+{
+  "name": "nodecloud-rfcs",
+  "version": "1.0.0",
+  "description": "Current development methodology of NodeCloud is a manual and VERY error prone way of defining and unifying APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajitha1998/nodecloud-rfcs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajitha1998/nodecloud-rfcs/issues"
+  },
+  "homepage": "https://github.com/rajitha1998/nodecloud-rfcs#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^5.0.1",
+    "aws-sdk": "^2.686.0",
+    "azure-storage": "^2.10.3",
+    "js-yaml": "^3.14.0",
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.6"
+  }
+}
