@@ -10,6 +10,8 @@ Reasons to why it’s an error prone methodology,
 
 ## Proposal
 
+### #nc000
+
 - Implement a parser which can read configuration file that contain the API to be used from specific SDKs.
 - This config file can be any format as long as it gives us the flexibility to define the API definitions that we want. Eg: TypeScript, toml, yaml?
 - A parser can parse the definitions in the file and decide what APIs to use from each SDK.
